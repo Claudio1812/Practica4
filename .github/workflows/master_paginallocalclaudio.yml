@@ -28,5 +28,5 @@ jobs:
       with:
         app-name: 'paginallocalclaudio'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_e2cbbb034a2040e8a063d5afbb074a6a }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_e8128ea7e70449b6a0b253b130a2cb0c }}
         package: '${{ github.workspace }}/target/*.jar'
